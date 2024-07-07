@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container{
+    
+    width: 3000px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img{
+    width: 300px;
+}
+
+div.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+button{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    color: red;
+    border: 1px solid red;
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.refer{
+          background-color: rgb(205, 255, 244);
+          padding: 40px 80px;
+          border-radius: 20px;
+          color: blue;
+}
